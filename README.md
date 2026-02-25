@@ -1,10 +1,10 @@
 # jQuery Agent Skill
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Repo Size](https://img.shields.io/github/repo-size/btafoya/jquery-agent-skill)](https://github.com/btafoya/jquery-agent-skill)
-[![GitHub Issues](https://img.shields.io/github/issues/btafoya/jquery-agent-skill)](https://github.com/btafoya/jquery-agent-skill/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/btafoya/jquery-agent-skill)](https://github.com/btafoya/jquery-agent-skill/pulls)
-[![GitHub Language](https://img.shields.io/github/languages/top/btafoya/jquery-agent-skill)](https://github.com/btafoya/jquery-agent-skill)
+[![Repo Size](https://img.shields.io/github/repo-size/btafoya/jquery-agent-skill.svg)](https://github.com/btafoya/jquery-agent-skill)
+[![GitHub Issues](https://img.shields.io/github/issues/btafoya/jquery-agent-skill.svg)](https://github.com/btafoya/jquery-agent-skill/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/btafoya/jquery-agent-skill.svg)](https://github.com/btafoya/jquery-agent-skill/pulls)
+[![Language](https://img.shields.io/github/languages/top/btafoya/jquery-agent-skill.svg)](https://github.com/btafoya/jquery-agent-skill)
 
 > A comprehensive jQuery development assistant for all compatible AI tools
 
