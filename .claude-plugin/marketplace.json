@@ -1,0 +1,22 @@
+{
+  "name": "jquery-agent-marketplace",
+  "owner": {
+    "name": "btafoya"
+  },
+  "plugins": [
+    {
+      "name": "jquery-agent",
+      "source": "./jquery-agent",
+      "description": "Comprehensive jQuery development assistant for DOM manipulation, event handling, AJAX requests, animations, and plugin development",
+      "version": "1.0.0",
+      "author": {
+        "name": "btafoya"
+      },
+      "homepage": "https://github.com/btafoya/jquery-agent-skill",
+      "repository": "https://github.com/btafoya/jquery-agent-skill",
+      "license": "MIT",
+      "keywords": ["jquery", "dom", "ajax", "animation", "plugin-development"],
+      "category": "web-development"
+    }
+  ]
+}
