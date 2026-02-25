@@ -6,9 +6,9 @@
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/btafoya/jquery-agent-skill)](https://github.com/btafoya/jquery-agent-skill/pulls)
 [![GitHub Language](https://img.shields.io/github/languages/top/btafoya/jquery-agent-skill)](https://github.com/btafoya/jquery-agent-skill)
 
-> A comprehensive jQuery development assistant for Claude Code
+> A comprehensive jQuery development assistant for all compatible AI tools
 
-This skill augments Claude's capabilities with expert jQuery knowledge for DOM manipulation, event handling, AJAX, animations, and plugin development.
+This skill augments AI coding assistants with expert jQuery knowledge for DOM manipulation, event handling, AJAX, animations, and plugin development. Compatible with any tool that supports the standard skill format.
 
 ## Features
 
@@ -26,9 +26,36 @@ This skill augments Claude's capabilities with expert jQuery knowledge for DOM m
 
 ## Installation
 
-1. Download the `jquery.skill` file
-2. Place it in your Claude Code skills directory
-3. The skill will activate automatically when working with jQuery
+### Using the Skills CLI (Recommended)
+
+The [Vercel Labs Skills CLI](https://github.com/vercel-labs/skills) provides an easy way to install and manage skills across compatible AI tools:
+
+```bash
+# Install to current project
+npx skills add btafoya/jquery-agent-skill
+
+# Install globally (available to all projects)
+npx skills add -g btafoya/jquery-agent-skill
+
+# List installed skills
+npx skills list
+
+# Update skills
+npx skills update
+```
+
+The Skills CLI supports installing from GitHub repositories, GitLab URLs, any git URL, or local paths.
+
+### Manual Installation
+
+Place the `jquery.skill` file in your AI tool's skills/plugins directory. The skill will activate automatically when working with jQuery.
+
+### Known Compatible Tools
+
+- Claude Code
+- Any tool supporting the standard skill format
+
+Check your tool's documentation for the specific skills directory location.
 
 ## Usage
 
@@ -48,7 +75,7 @@ This skill activates automatically when you:
 ```
 User: How do I fade out an element with jQuery?
 
-Claude: You can use the .fadeOut() method:
+Assistant: You can use the .fadeOut() method:
 
 $('#myElement').fadeOut();           // Default speed
 $('#myElement').fadeOut(500);        // 500ms duration
