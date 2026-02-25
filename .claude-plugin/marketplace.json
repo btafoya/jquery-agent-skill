@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "jquery-agent",
-      "source": ".",
+      "source": "./plugins/jquery",
       "description": "Comprehensive jQuery development assistant for DOM manipulation, event handling, AJAX requests, animations, and plugin development",
       "version": "1.0.0",
       "author": {
